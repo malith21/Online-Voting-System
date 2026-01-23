@@ -1,0 +1,90 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIITvote.lk - Home</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS -->
+    <style>
+        body{
+            background-image: url('pics/b2.jpg');
+        }
+                /* General Section Styles */
+        #admin-login {
+            background-color: #F0F0F0; /* Light Gray Background */
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading Style */
+        #admin-login h2 {
+            color: #003366; /* Navy Blue */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Label Style */
+        #admin-login label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333333; /* Dark Gray */
+            font-weight: bold;
+        }
+
+        /* Input Fields */
+        #admin-login input[type="text"],
+        #admin-login input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Button Style */
+        #admin-login button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50; /* Emerald Green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #admin-login button:hover {
+            background-color: #009688; /* Teal */
+        }
+
+        /* Add some spacing between the label and input */
+        #admin-login form {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    
+    <section id="admin-login">
+        <h2>Admin Login</h2>
+        <form action="admin_log.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+</body>
+</html>

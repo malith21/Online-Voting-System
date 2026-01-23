@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: navy;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.auth-buttons button {
+    background-color: white;
+    color: navy;
+    border: 1px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.auth-buttons button:hover {
+    background-color: navy;
+    color: white;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: defualt;
+}
+
+h1 {
+    font-size: 36px;
+    color: navy;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: navy;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-content img {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+}
+
+/* Values Section */
+.values {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.value-box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.value-box img {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+.value-box button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.value-box button:hover {
+    background-color: darkblue;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  
