@@ -1,4 +1,8 @@
+<div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=200&section=header&text=Online%20Voting%20System&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Secure%20%7C%20Transparent%20%7C%20Digital%20Democracy&descAlignY=58&descSize=18&animation=fadeIn"/>
+
+</div>
 
 # 🗳️ Online Voting System
 
@@ -342,3 +346,8 @@ Special thanks to all who contributed to making this project possible:
 
 [⬆ Back to Top](#-online-voting-system)
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38ef7d,100:11998e&height=100&section=footer"/>
+
+</div>
